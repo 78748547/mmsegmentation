@@ -488,6 +488,16 @@ def hsidrive_palette():
             [255, 166, 0], [0, 204, 204]]
 
 
+def furnace_classes():
+    """BaoGang Furnace class names for external use."""
+    return ['background', 'beat', 'cap', 'generator', 'joint']
+
+
+def furnace_palette():
+    """BaoGang Furnace palette for external use."""
+    return [[0, 0, 0], [0, 255, 206], [199, 252, 0], [255, 33, 33], [0, 255, 61]]
+
+
 dataset_aliases = {
     'cityscapes': ['cityscapes'],
     'ade': ['ade', 'ade20k'],
@@ -510,7 +520,8 @@ dataset_aliases = {
     'hsidrive': [
         'hsidrive', 'HSIDrive', 'HSI-Drive', 'hsidrive20', 'HSIDrive20',
         'HSI-Drive20'
-    ]
+    ],
+    'furnace': ['furnace', 'Furnace', 'BaoGangFurnace']
 }
 
 
